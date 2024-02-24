@@ -1,0 +1,98 @@
+.about{
+  height: 100vh;
+}
+
+.aboutTop{
+  text-align: center;
+  background-color: white;
+}
+
+.aboutTop h1{
+  transition: all 0.3s;
+}
+
+.aboutTop h1:hover {
+  transform: translateY(10px);
+}
+
+.aboutMain h1{
+  transition: all 0.3s;
+}
+
+.aboutMain h1:hover {
+  transform: translateY(10px);
+}
+
+.aboutMain{
+  margin-top: 1rem;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.column {
+  margin-top: 2rem;
+  float: left;
+  width: 33%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+  transition: all 0.3s;
+}
+.column:hover {
+  transform: translateY(10px);
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.card img{
+  width: 80%;
+  height: 25vh;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column{
+    width: 100%;
+    display: block;
+  }
+}
